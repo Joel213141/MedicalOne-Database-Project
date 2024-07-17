@@ -1,0 +1,9 @@
+-- Create View
+CREATE VIEW Third_dose_vaccine_centres AS 
+SELECT D.C_ID, V.VAC_DOSE, V.VAC_TYPE 
+FROM VACCINATION V 
+JOIN BOOKING B ON V.BOOKING_ID = B.BOOKING_ID 
+JOIN DOCTOR D ON B.DOC_ID = D.DOC_ID 
+WHERE V.VAC_DOSE >= 3;
+
+SELECT * FROM Third_dose_vaccine_centres;
