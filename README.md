@@ -96,11 +96,3 @@ Sample queries are provided to demonstrate how to retrieve and update data withi
 2. Execute the SQL scripts in your SQL environment to create the database schema.
 3. Insert the sample data to populate the tables.
 4. Run the provided queries to interact with and manage the data.
-
-## Contributions
-
-Contributions to this project are welcome. If you have suggestions for improvements or additional features, please submit a pull request or open an issue.
-
-## License
-
-This project is licensed under the MIT License.
